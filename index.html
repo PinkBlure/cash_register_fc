@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cash Register</title>
+  </head>
+  <body>
+
+    <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+
+    <h1>Cash Register Project</h1>
+
+    <div id="change-due"></div>
+
+    <label for="cash">Enter cash for customer:</label>
+    <input id="cash" type="number">
+
+    <button id="purchase-btn">Purchase</button>
+
+    <div>
+      <div id="price"></div>
+      <div id="box"></div>
+      <div id="register">
+        <div id="buttons">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div> 
+        </div>
+        <div id="table-info">
+          <strong>Change in drawer:</strong>
+          <span>Pennies: $1.01</span>
+          <span>Nickels: $2.05</span>
+          <span>Dimes: $3.1</span>
+          <span>Quarters: $4.25</span>
+          <span>Ones: $90</span>
+          <span>Fives: $55</span>
+          <span>Tens: $20</span>
+          <span>Twenties: $60</span>
+          <span>Hundreds: $100</span>
+        </div>
+      </div>
+      <div id="drawer">
+        <div id="circle"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
